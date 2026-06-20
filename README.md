@@ -44,11 +44,10 @@ A `RandomForestClassifier` was trained with `class_weight='balanced'` to handle 
            0       1.00      1.00      1.00     38126
            1       1.00      1.00      1.00        50
 
-
     accuracy                           1.00     38176
    macro avg       1.00      1.00      1.00     38176
 weighted avg       1.00      1.00      1.00     38176
+
 ```
-**Author:** Mohd Anas Nakhuda
-
-
+**Author**
+-**Mohd Anas Nakhuda**
