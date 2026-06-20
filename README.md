@@ -35,16 +35,19 @@ Due to the dataset's massive size (6.3M+ rows), a **3% stratified sample** was e
 A `RandomForestClassifier` was trained with `class_weight='balanced'` to handle the remaining internal imbalance[cite: 1].
 
 **Performance Metrics:**
-- **Accuracy:** 100%[cite: 1]
-- **ROC-AUC Score:** 1.00[cite: 1]
-- **Classification Report:**[cite: 1]
+- **Accuracy:** 100%
+- **ROC-AUC Score:** 1.00
+- **Classification Report:**
 ```text
               precision    recall  f1-score   support
 
            0       1.00      1.00      1.00     38126
            1       1.00      1.00      1.00        50
 
-**Author:** Mohd Anas Nakhuda
+
     accuracy                           1.00     38176
    macro avg       1.00      1.00      1.00     38176
 weighted avg       1.00      1.00      1.00     38176
+
+
+**Author:** Mohd Anas Nakhuda
